@@ -90,7 +90,9 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/material-design-lite/material.min.js"
+            ]
           }
         },
         "lint": {
@@ -119,6 +121,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Video-Player"
+    }
+  },
+  "defaultProject": "Video-Player",
+  "cli": {
+    "analytics": "72c9c826-db0e-4a63-ae0f-c8c0438aaaec"
+  }
 }
